@@ -1,6 +1,6 @@
 package _231228;
 
-public class Account {
+class Account {
     private int regNumber;
     private String name;
     private int balance;
@@ -22,7 +22,7 @@ public class Account {
     }
 }
 
-public class AccountTest {
+class AccountTest {
     public static void main(String[] args) {
         Account obj = new Account();
         obj.setName("Tom");

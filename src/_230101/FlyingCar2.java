@@ -1,10 +1,10 @@
 package _230101;
 
-interface Flyable {
+interface Flyable2 {
     void fly();
 }
 
-class Car {
+class Car2 {
     int speed;
 
     void setSpeed(int speed) {
@@ -12,7 +12,7 @@ class Car {
     }
 }
 
-public class FlyingCar2 extends Car implements Flyable {
+public class FlyingCar2 extends Car2 implements Flyable {
     public void fly() {
         System.out.println("I'm flying!");
     }
